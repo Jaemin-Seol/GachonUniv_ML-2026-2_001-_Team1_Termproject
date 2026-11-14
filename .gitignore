@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated data and models
+*.csv
+*.npz
+*.pt
+
+# Keep the manual metadata rules
+!steam_tag_manual.csv
+!Preprocessing/steam_tag_manual.csv
+
+# Raw datasets
+*.json
